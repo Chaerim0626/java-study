@@ -25,13 +25,7 @@ public static void main(String[] args) {
 	int num4 = 5; //00000101
 	System.out.println(num4 << 1); //비트 연산자 (*2)
 	System.out.println(num4 << 2); // *4 (2의 2승)
-	System.out.println(num4 >> 1); //00000010 (/2)
-	//num4는 바뀌지 않음 !!
-	
-	
-	int res = num1 & num4; //비트 연산자
-	System.out.println(res);
-	
+	System.out.println(num4 >> 1); //00000010
 	
 	}
 }

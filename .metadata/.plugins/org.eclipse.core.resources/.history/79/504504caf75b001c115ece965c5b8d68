@@ -1,0 +1,47 @@
+package project1;
+
+public class 제어문 {
+
+	public static void main(String[] args) {
+		
+		int age = 11;
+		
+		//1. if문
+		if (age < 8){
+			System.out.println("미취학 아동입니다.");
+		}
+		else if (age < 14) {
+			System.out.println("초등학생입니다.");
+		}
+		else {
+			System.out.println("학교에 다니지 않습니다.");
+		}
+		
+		//2. if문을 조건 연산자로 구현
+		int a = 10;
+		int b = 20;
+		int max = 100;
+		
+		if (a > b)
+			max = a;
+		else
+			max = b;
+		max = (a>b) ? a : b;
+		
+		
+		//3. switch-case문
+		//조건식의 결과가 정수 또는 문자열 값이고 그 값에 따라 수행문이 결정될 때
+		int rank = 1;
+		char medalColor;
+		switch(rank) {
+		case 1: medalColor = 'G';
+				break;
+		case 2 : medalColor = 'S';
+				break;
+		case 3 : medalColor = 'B';
+				break;
+		default : medalColor = 'A';	
+		}
+		System.out.println(rank+ "등 메달의 색깔은" + medalColor + "입니다.");
+	}
+}

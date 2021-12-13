@@ -152,28 +152,10 @@ public class 제어문 {
 		int total = 0;
 		int num4;
 		for(num4 = 1; num4 <= 100; num4++) {
-			if ((num4 % 2) == 1)
-			{
+			if ((num % 2) == 1)
 				continue;
-			}
 			total += num4;
 		}
 		System.out.println(total);
-		
-		
-		
-		//9. break문 (더 이상 반복을 수행하지 않고 반복문 빠져나옴)
-		int sum4 = 0;
-		int num5 = 1;
-		while (true)
-		{
-			sum4 += num5;
-			if (sum4 > 100)
-				break;
-			num5++;
-		}
-		
-		System.out.println(sum4);
-		System.out.println(num5);
 	}
 }

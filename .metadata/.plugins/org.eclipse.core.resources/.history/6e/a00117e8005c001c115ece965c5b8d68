@@ -162,7 +162,7 @@ public class 제어문 {
 		
 		
 		
-		//9. break문 (더 이상 반복을 수행하지 않고 반복문 빠져나옴)
+		//9. break문
 		int sum4 = 0;
 		int num5 = 1;
 		while (true)

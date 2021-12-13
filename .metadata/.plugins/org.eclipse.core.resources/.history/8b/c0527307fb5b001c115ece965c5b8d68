@@ -114,66 +114,6 @@ public class 제어문 {
 		System.out.println(sum3);
 		System.out.println(num3);
 	
-		
-		
-		//7. 중첩 반복문 (구구단)
-		int dan;
-		int times;
-		for(dan = 2; dan <= 9; dan++) {
-			for(times = 1; times <= 9; times++) {
-				System.out.println(dan + "*" + times + "=" + dan*times);
-			}
-			System.out.println(); //개행
-		}
 	
-		int dan2 = 2;
-		int times2;
-		while (dan2 <= 9) {
-			times2 = 1; //초기화 잊지말 것
-			while(times2 <= 9)
-			{
-				System.out.println(dan2 + "*" + times2 + "=" + dan2*times2);
-				times2++;
-			}
-			dan2++;
-			System.out.println();
-			
-		}
-		
-		//기타
-		for(int i=0; i < 10; i++) //int i=1; i<=10; 보다 이 방식 선호
-		{
-			System.out.println("Hello World");
-		}
-		
-		
-		
-		//8. continue문 (조건을 만족하면 나머지를 수행하지말고 넘어감)
-		int total = 0;
-		int num4;
-		for(num4 = 1; num4 <= 100; num4++) {
-			if ((num4 % 2) == 1)
-			{
-				continue;
-			}
-			total += num4;
-		}
-		System.out.println(total);
-		
-		
-		
-		//9. break문 (더 이상 반복을 수행하지 않고 반복문 빠져나옴)
-		int sum4 = 0;
-		int num5 = 1;
-		while (true)
-		{
-			sum4 += num5;
-			if (sum4 > 100)
-				break;
-			num5++;
-		}
-		
-		System.out.println(sum4);
-		System.out.println(num5);
 	}
 }

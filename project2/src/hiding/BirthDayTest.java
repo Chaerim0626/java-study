@@ -42,8 +42,8 @@ public class BirthDayTest{
 	public static void main(String[] args) {
 		
 		BirthDay day = new BirthDay();
-		day.setDay(30); //private 立辟 规侥
 		day.setMonth(2);
+		day.setDay(30); //private 立辟 规侥
 		day.setYear(2020);
 		
 	}

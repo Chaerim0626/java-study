@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+D:\Ã¤¸²\git_chaerim\java_study\.metadata\.plugins\org.eclipse.jdt.core
 4154827010.index
 3378336975.index
-1923751540.index
 3284839489.index
 3272726545.index

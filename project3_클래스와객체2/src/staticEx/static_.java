@@ -17,8 +17,10 @@ public class static_ {
 	3. static 변수(클래스변수) : 클래스 내부 private 아니면 다른 클래스에서 사용 가능
 	
 	
-	- singleton 패턴 (static 응용)
-	
+	- singleton 패턴 (static 응용) 
+	어떤 클래스가 최초 한 번만 메모리를 할당하고(static) 
+	그 메모리에 객체를 만들어 사용하는 디자인 패턴
+	-> 메모리 낭비 방지
 	
 	*/
 }

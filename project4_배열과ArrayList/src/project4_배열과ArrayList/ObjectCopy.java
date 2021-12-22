@@ -7,7 +7,8 @@ public class ObjectCopy {
 		 - 배열 복사하기
 		 System.arraycopy(복사할배열, 복사할 첫 위치, 대상배열, 붙여넣을 첫 위치, 복사할 요소개수);
 		 
-		
+		 - 객체배열을 선언한다고 해서 인스턴스가 생성되는 것 아님
+		 - 객체배열 복사한다고 다른 인스턴스를 가리키는 것은 아님
 		 - 다른 인스턴스를 가리키는 것 : 깊은 복사
 		 
 		 */
@@ -46,13 +47,13 @@ public class ObjectCopy {
 		
 		
 		//향상된 for문
-		for(String s: strArr) {
+		for(String s: strArr) { //처음부터 끝까지 다 순회
 			System.out.println(s);
 		}
 		
 		
 		int[] arr = {1, 2, 3, 4, 5};
-		for (int num : arr) { //num = arr[i]
+		for (int num : arr) { //num = arr[i], 하나씩 순회
 			System.out.println(num);
 		}
 	}

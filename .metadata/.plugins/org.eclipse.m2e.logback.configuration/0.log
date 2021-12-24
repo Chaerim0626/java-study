@@ -11,3 +11,13 @@
 2021-12-20 14:44:41,129 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-12-20 14:58:32,300 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-12-22 16:58:44,256 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-24 16:36:14,154 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-24 16:52:17,530 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @979276ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-12-24 16:52:17,669 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.35.v20201120; built: 2020-11-27T20:36:51.615Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9-18
+2021-12-24 16:52:17,685 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-12-24 16:52:17,685 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-12-24 16:52:17,686 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-12-24 16:52:17,713 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@12b74ced{/help,null,AVAILABLE}
+2021-12-24 16:52:17,749 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3db73b32{HTTP/1.1, (http/1.1)}{127.0.0.1:61179}
+2021-12-24 16:52:17,750 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @979498ms
+2021-12-24 16:52:17,750 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms

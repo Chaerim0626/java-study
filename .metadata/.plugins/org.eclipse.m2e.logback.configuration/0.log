@@ -21,3 +21,7 @@
 2021-12-24 16:52:17,749 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3db73b32{HTTP/1.1, (http/1.1)}{127.0.0.1:61179}
 2021-12-24 16:52:17,750 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @979498ms
 2021-12-24 16:52:17,750 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms
+2021-12-25 11:08:13,344 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3db73b32{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-12-25 11:08:13,345 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-12-25 11:08:13,358 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@12b74ced{/help,null,STOPPED}
+2022-01-13 16:02:45,389 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -7,6 +7,17 @@ public class ArrayListTest {
 		
 		//ArrayList 클래스 : 자바에서 제공되는 객체 배열이 구현된 클래스
 		ArrayList<String> list = new ArrayList<String>();
+	
+		list.add("aaa");
+		list.add("bbb");
+		
+		for(String s: list) {
+			System.out.println(s);
+		}
+	
+		
+		
+	
 	}
 
 }

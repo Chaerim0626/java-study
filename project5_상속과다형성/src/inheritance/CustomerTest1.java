@@ -21,5 +21,6 @@ public class CustomerTest1 {
 		System.out.println(customerKim.showCustomerInfo());
 		
 		
+		//다형성 : 하나의 코드가 여러가지 자료형으로 구현되어 실행되는 것
 	}
 }

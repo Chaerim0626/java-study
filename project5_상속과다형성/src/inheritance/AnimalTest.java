@@ -39,7 +39,7 @@ public class AnimalTest {
 	}
 	
 	public void moveAnimal(Animal animal ) {
-		animal.move();
+		animal.move(); //다형성 구현, 가상함수
 	}
 
 }

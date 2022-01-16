@@ -7,6 +7,8 @@ public class CarTest {
 		Car myCar = new ManualCar();
 		myCar.run();
 		
+		System.out.println("=====================");
+		
 		Car yourCar = new AICar();
 		yourCar.run();
 	}

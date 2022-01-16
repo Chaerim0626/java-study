@@ -14,6 +14,17 @@ public class AICar extends Car {
 		
 	}
 	
+	@Override
+	public void wiper() {
+		System.out.println("자동으로 와이퍼를 조절합니다.");
+	}
+
+	@Override
+	public void washCar() {
+		
+		System.out.println("자동으로 세차가 됩니다.");
+	}
+	
 	
 	
 

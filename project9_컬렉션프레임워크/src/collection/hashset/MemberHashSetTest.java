@@ -18,7 +18,9 @@ public class MemberHashSetTest {
 			
 			memberHashSet.showAll();
 			
-			Member memberLee2 = new Member(104, "ÀÌ¸ù·æ");
+			Member memberLee2 = new Member(101, "ÀÌ¸ù·æ");
+			//°°Àº ¾ÆÀÌµð Ã¼Å©
+			
 			memberHashSet.addMember(memberLee2);
 			
 			memberHashSet.showAll();

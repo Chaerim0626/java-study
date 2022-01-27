@@ -19,6 +19,15 @@ public class Practice4 {
 			x++;
 			
 		}
+		
+		System.out.println();
+		int[] arr = {1, 2, 3, 4, 5};
+		System.out.println(arr[1]);
+		
+		for(int j : arr) {
+			System.out.print(j + " ");
+		}
+		
 	}
 
 }

@@ -1,6 +1,5 @@
 package thisEx;
 
-import thisEx.Birthday;
 
 class Birthday{
 	int day;

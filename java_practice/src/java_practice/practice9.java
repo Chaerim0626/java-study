@@ -1,14 +1,14 @@
 package java_practice;
 
-class Person {
+class Person1 {
 	
 	//1. 속성
 	int age;
 	String name;
 	
 	//2. 생성자
-	Person() {}
-	Person(int age, String name){
+	Person1() {}
+	Person1(int age, String name){
 		this.age = age; //this는 생성된 객체 자신을 의미
 		this.name = name;
 	} //생성자 오버로딩
@@ -35,9 +35,9 @@ public class practice9 {
 		
 		
 	//3. 객체 생성
-	Person p1 = new Person(20,"홍길동");
-	Person p2 = new Person(30, "이순신");
-	Person p3 = new Person(40, "을지문덕");
+	Person1 p1 = new Person1(20,"홍길동");
+	Person1 p2 = new Person1(30, "이순신");
+	Person1 p3 = new Person1(40, "을지문덕");
 	
 	p1.printPerson();
 	p2.printPerson();

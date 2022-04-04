@@ -24,6 +24,7 @@ class Hero extends Person {
 	
 	Hero(){}
 	Hero(String name, int age){
+		super(); //부모클래스의 생성자를 호출
 		this.name = name;
 		this.age = age; 
 	}
@@ -60,12 +61,21 @@ public class practice10 {
 		Hero h1 = new Hero("슈퍼맨", 20);
 		System.out.println(h1.age);
 		System.out.println(h1.name);
-		System.out.println(h1.gender); //부모클래스 필드
+		System.out.println(h1.gender);
+		System.out.println(h1.gender); //부모클래스 필드 (변수)
 		
-		//
+		h1.walk();
+		h1.displayPerson();
 		
+		//3. 원더우먼 객체 생성
+		Hero h2 = new Hero("원더우먼", 30);
+		h2.gender = 2;
+		h2.power = 300;
+		h2.displayPerson();
+		h2.walk();
 		
 
 	}
 
 }
+ 

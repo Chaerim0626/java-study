@@ -3,7 +3,7 @@ package temp;
 public class Practice9 {
 	
 	public static void showMenu() {
-		System.out.println("ShowMenu() ¸Ş¼­µå°¡ È£ÃâµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ShowMenu() ë©”ì„œë“œê°€ í˜¸ì¶œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 	
 	public static void plus(int n1, int n2) {
@@ -18,15 +18,15 @@ public class Practice9 {
 
 	public static void main(String[] args) {
 		
-		//¹İÈ¯°ª X ÀÎÀÚ°ª X
+		//ë°˜í™˜ê°’ X ì¸ìê°’ X
 		showMenu();
 		
-		//¹İÈ¯°ª X ÀÎÀÚ°ª O
+		//ë°˜í™˜ê°’ X ì¸ìê°’ O
 		plus(2,5);
 		
-		//¹İÈ¯°ª O ÀÎÀÚ°ª X
+		//ë°˜í™˜ê°’ O ì¸ìê°’ X
 		returnMethod();
 	}
 	
 	//
-}
+} 
